@@ -5,7 +5,7 @@ import App from './App';
 export const router = createBrowserRouter([
   {
     path: "/",
-    element: <App />, // Composant principal qui contient un <Outlet />
+    element: <Home />, // Composant principal qui contient un <Outlet />
     children: [
       {
         path: "/",
